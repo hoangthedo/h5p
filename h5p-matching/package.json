@@ -1,0 +1,51 @@
+{
+  "name": "h5p-matching",
+  "version": "1.0.0",
+  "description": "An H5P for matching two texts, or an image and a text",
+  "private": true,
+  "scripts": {
+    "test": "ava",
+    "build": "cross-env NODE_ENV='production' webpack -p",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h5p/h5p-matching.git"
+  },
+  "keywords": [
+    "h5p",
+    "library"
+  ],
+  "author": "Tom Arild Jakobsen <tajakobsen@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-latest": "^6.22.0",
+    "code-point-at": "^1.1.0",
+    "cross-env": "^5.1.0",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "loader-utils": "^1.0.2",
+    "node-sass": "^4.13.1",
+    "ramda": "^0.25.0",
+    "require-extension-hooks-vue": "^0.4.1",
+    "resolve-url-loader": "^2.1.1",
+    "roving-tabindex-element-list": "^1.0.1",
+    "sass-loader": "^6.0.2",
+    "set-blocking": "^2.0.0",
+    "shuffle-array": "^1.0.1",
+    "style-loader": "^0.19.0",
+    "svg-inline-loader": "^0.8.0",
+    "vue": "^2.5.2",
+    "vuedraggable": "^2.14.1",
+    "vue-loader": "^13.3.0",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^3.8.1",
+    "yargs-parser": "^8.0.0"
+  }
+}
